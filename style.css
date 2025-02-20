@@ -1,0 +1,89 @@
+/*estilo*/
+
+.linha1, .linha2, .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10, .linha11, .linha12, .linha13{
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.linha1{
+    display: flex;/*alinha a imagens ao titulo*/
+    flex-wrap: wrap;
+    justify-content: start;/*alinhamento horizontal*/
+    align-items: start;/*alinhamento vertical*/
+}
+
+.linha2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+
+.linha4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.linha5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha8{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linha9{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha10{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha12{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha13{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
